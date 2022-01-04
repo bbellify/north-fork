@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: green;
 }
 
 .App-header {
@@ -19,15 +20,17 @@
 nav {
   background-color: forestgreen;
   text-align: right;
+  padding: 1.5% 0;
 }
 
 nav a {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   margin: 1%;
   font-family: 'Josefin Sans', Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   color: gainsboro;
+
 }
 
 .active {
@@ -36,6 +39,14 @@ nav a {
   text-decoration: underline
 }
 
+.home {
+  background-color: #B2BEB5;
+  height: 100;
+}
+
+.home img {
+  margin: 5% 0;
+}
 
 footer {
   text-align: center
