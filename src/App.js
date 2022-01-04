@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavLink, Route, Routes } from 'react-router-dom'
 
 // utils
@@ -12,19 +13,20 @@ import Maps from './components/Maps'
 import Retreats from './components/Retreats'
 import Specials from './components/Specials'
 import Weddings from './components/Weddings'
-
+import NavMenu from './components/NavMenu'
 
 function App() {
   return (
     <div className="App">
-      <nav>
+      <NavMenu />
+      <div>
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/specials'>Specials</NavLink>
         <NavLink to='/accommodations'>Accommodations</NavLink>
         <NavLink to='/weddings'>Weddings</NavLink>
         <NavLink to='/retreats'>Retreats</NavLink>
         <NavLink to='/maps'>Maps</NavLink>
-      </nav>
+      </div>
 
       <Routes>
         <Route exact path ={'/'} element={<Home />}/>
