@@ -6,6 +6,7 @@ import { NavLink, Route, Routes } from 'react-router-dom'
 // import RequireAuth from './utils/RequireAuth'
 
 // components
+import Home from './components/Home'
 import Accommodations from './components/Accommodations'
 import Maps from './components/Maps'
 import Retreats from './components/Retreats'
@@ -24,11 +25,9 @@ function App() {
         <NavLink to='/retreats'>Retreats</NavLink>
         <NavLink to='/maps'>Maps</NavLink>
       </nav>
-      <h1> On the North Fork </h1>
-      <img src='https://i.ibb.co/2nzRS6P/IMG-0938.jpg' alt='horsies' width='50%' />
 
       <Routes>
-        {/* <Route exact path ={'/'} element={<Home />}/> */}
+        <Route exact path ={'/'} element={<Home />}/>
         <Route path={'/specials'} element={<Specials />}/>
         <Route path={'/accommodations'} element={<Accommodations/>}/>
         <Route path={'/weddings'} element={<Weddings/>}/>
@@ -36,6 +35,10 @@ function App() {
         <Route path={'/retreats'} element={<Retreats/>}/>
         <Route path={'/maps'} element={<Maps/>}/>
       </Routes>
+
+      <footer>
+        <h3>Website design by Bellwether</h3>
+      </footer>
     </div>
   );
 }

@@ -9,7 +9,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -23,6 +22,21 @@ nav {
 }
 
 nav a {
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin: 1%;
+  font-family: 'Josefin Sans', Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: gainsboro;
+}
+
+.active {
+  font-weight: 800;
+  color: lightgrey;
+  text-decoration: underline
+}
+
+
+footer {
+  text-align: center
 }
