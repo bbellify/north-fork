@@ -19,15 +19,7 @@ function App() {
   return (
     <div className="App">
       <NavMenu />
-      <div>
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/specials'>Specials</NavLink>
-        <NavLink to='/accommodations'>Accommodations</NavLink>
-        <NavLink to='/weddings'>Weddings</NavLink>
-        <NavLink to='/retreats'>Retreats</NavLink>
-        <NavLink to='/maps'>Maps</NavLink>
-      </div>
-
+      
       <Routes>
         <Route exact path ={'/'} element={<Home />}/>
         <Route path={'/specials'} element={<Specials />}/>

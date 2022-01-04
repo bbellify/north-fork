@@ -1,6 +1,6 @@
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { NavLink } from 'react-router-dom'
+
 import { LinkContainer } from 'react-router-bootstrap'
 
 import Navbar from 'react-bootstrap/Navbar'
@@ -12,7 +12,7 @@ function NavMenu() {
     return (
 
       // change expand to sm or similar so expands on larger screen, blank now for dev
-      <Navbar bg="light" expand={''}>
+      <Navbar className='navbar' bg="light" expand={''}>
       <Container fluid>
         <Navbar.Brand href=''>On the North Fork</Navbar.Brand>
         <Navbar.Toggle aria-controls="offcanvasNavbar" />
