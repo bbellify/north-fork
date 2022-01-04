@@ -9,7 +9,7 @@ function App() {
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/accommodations'>Accommodations</NavLink>
         <NavLink to='/weddings'>Weddings</NavLink>
-        <NavLink to='/gatherings'>Gatherings</NavLink>
+        <NavLink to='/retreats'>Retreats</NavLink>
         <NavLink to='/meetings'>Meetings</NavLink>
         <NavLink to='/maps'>Maps</NavLink>
       </nav>

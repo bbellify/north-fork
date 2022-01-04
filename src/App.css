@@ -18,5 +18,11 @@
 }
 
 nav {
-  
+  background-color: forestgreen;
+  text-align: right;
+}
+
+nav a {
+  font-size: 2rem;
+  margin: 1%;
 }
