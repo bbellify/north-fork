@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <NavLink to='/specials'>Specials</NavLink>
         <NavLink to='/'>Home</NavLink>
+        <NavLink to='/specials'>Specials</NavLink>
         <NavLink to='/accommodations'>Accommodations</NavLink>
         <NavLink to='/weddings'>Weddings</NavLink>
         <NavLink to='/retreats'>Retreats</NavLink>
@@ -28,6 +28,7 @@ function App() {
       <img src='https://i.ibb.co/2nzRS6P/IMG-0938.jpg' alt='horsies' width='50%' />
 
       <Routes>
+        {/* <Route exact path ={'/'} element={<Home />}/> */}
         <Route path={'/specials'} element={<Specials />}/>
         <Route path={'/accommodations'} element={<Accommodations/>}/>
         <Route path={'/weddings'} element={<Weddings/>}/>
